@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A353B"
+    tools:context=".Pokefinder">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="80dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="292dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="672dp"
+            android:gravity="center"
+            android:text="POKEFINDER"
+            android:textColor="#E86E83"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PokemonDetails"
+            android:layout_width="356dp"
+            android:layout_height="116dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="431dp"
+            android:layout_marginEnd="30dp"
+            android:background="#D9D9D9"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Who's That Pokémon?"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/PokemonName"
+            android:layout_width="269dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="577dp"
+            android:layout_marginEnd="86dp"
+            android:background="#C3DA70"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter pokemon name"
+            android:inputType="text"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#050505"
+            android:textColorHint="#101010"
+            android:textColorLink="#070707"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="198dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="659dp"
+            android:backgroundTint="#C3DA70"
+            android:text="Search!"
+            android:textColor="#101010"
+            android:textColorHighlight="#141313"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/PokemonImage"
+            android:layout_width="276dp"
+            android:layout_height="282dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="381dp"
+            app:srcCompat="@drawable/poke10" />
+
+    </RelativeLayout>
+</RelativeLayout>

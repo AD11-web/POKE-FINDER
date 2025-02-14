@@ -11,39 +11,41 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="327dp"
-        android:layout_height="69dp"
+        android:layout_width="276dp"
+        android:layout_height="67dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="356dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/edittext_background"
         android:ems="10"
+        android:gravity="center"
         android:hint="Enter the username"
         android:inputType="text"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:textColor="#3E3F41"
-        android:textStyle="bold"
-        android:gravity="center"/>
-
+        android:textColorHint="#121010"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="328dp"
-        android:layout_height="70dp"
+        android:layout_width="275dp"
+        android:layout_height="68dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="377dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="228dp"
         android:background="@drawable/edittext_background"
         android:ems="10"
         android:gravity="center"
         android:hint="Enter the password"
         android:inputType="text"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:textColor="#3E3F41"
+        android:textColorHint="#121010"
         android:textStyle="bold" />
-
-
-
 
     <ImageView
         android:id="@+id/imageView"
@@ -51,8 +53,8 @@
         android:layout_height="341dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
         app:srcCompat="@drawable/poke7" />
 
     <Button
@@ -61,9 +63,9 @@
         android:layout_height="67dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="91dp"
+        android:layout_marginStart="75dp"
         android:layout_marginTop="445dp"
-        android:layout_marginBottom="209dp"
+        android:layout_marginBottom="96dp"
         android:backgroundTint="#F2E69E"
         android:text="Register"
         android:textColor="#3E3F41"
